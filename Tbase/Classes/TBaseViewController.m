@@ -10,7 +10,7 @@
 
 #define rgbColor(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)/1.0f]
 
-@interface HPBaseViewController ()
+@interface TBaseViewController ()
 @property (nonatomic, assign) BOOL viewWillFirstAppeared;
 @property (nonatomic, assign) BOOL viewDidFirstAppeared;
 @property (nonatomic, assign) BOOL interactivePopGestureRecognizerEnabled; //右滑返回手势是否激活，默认返回YES。
